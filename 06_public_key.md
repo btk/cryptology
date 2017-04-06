@@ -25,7 +25,7 @@
 
 ## Euclidean Algorithm
 
-> gcd (r1, r2) = gcd (r1 - r2, r2)
+> gcd (r1, r2) = gcd (x.r2 + (r1 - x.r2), r2)
 
 - gcd (27, 21) = gcd (1.21 + 6, 21)
 - gcd (21, 6) = gcd (3.6 + 3, 6)
